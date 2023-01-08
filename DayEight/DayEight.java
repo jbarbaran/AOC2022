@@ -7,7 +7,7 @@ public class DayEight {
     public static void main (String[] args) 
     {
         PuzzleReader puzzleReader = new PuzzleReader();
-        int [][] puzzle = puzzleReader.LoadPuzzle("DayEight/puzzleDayEight.txt");
+        int [][] puzzle = puzzleReader.LoadPuzzle("DayEight/puzzleDemoDayEight.txt");
 
         int total = DayEightPartOneSolution(puzzle);
 
